@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Injector } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <h4>Hello world</h4>
+  `,
 })
 export class AppComponent {
-  title = 'CustomElement';
+
 }
